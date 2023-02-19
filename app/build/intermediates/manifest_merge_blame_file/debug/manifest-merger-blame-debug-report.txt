@@ -1,0 +1,117 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.buddys.steptrackerapplicationsample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+11-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+12-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:6:5-85
+12-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:6:22-82
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] /Users/mohit.garg/.gradle/caches/transforms-3/f3889f18d4f26e70cef4e17d11226053/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.buddys.steptrackerapplicationsample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] /Users/mohit.garg/.gradle/caches/transforms-3/f3889f18d4f26e70cef4e17d11226053/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] /Users/mohit.garg/.gradle/caches/transforms-3/f3889f18d4f26e70cef4e17d11226053/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.buddys.steptrackerapplicationsample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] /Users/mohit.garg/.gradle/caches/transforms-3/f3889f18d4f26e70cef4e17d11226053/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] /Users/mohit.garg/.gradle/caches/transforms-3/f3889f18d4f26e70cef4e17d11226053/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:8:5-39:19
+21        android:allowBackup="true"
+21-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] /Users/mohit.garg/.gradle/caches/transforms-3/f3889f18d4f26e70cef4e17d11226053/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:10:9-65
+24        android:debuggable="true"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:11:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:12:9-43
+27        android:label="@string/app_name"
+27-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:13:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:14:9-54
+29        android:supportsRtl="true"
+29-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:15:9-35
+30        android:theme="@style/Theme.StepTrackerApplicationSample" >
+30-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:16:9-66
+31        <activity
+31-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:18:9-26:20
+32            android:name="com.buddys.steptrackerapplicationsample.DebugActivity"
+32-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:19:13-42
+33            android:configChanges="orientation|keyboardHidden"
+33-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:20:13-63
+34            android:exported="false"
+34-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:21:13-37
+35            android:screenOrientation="portrait" >
+35-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:22:13-49
+36            <meta-data
+36-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:23:13-25:36
+37                android:name="android.app.lib_name"
+37-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:24:17-52
+38                android:value="" />
+38-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:25:17-33
+39        </activity>
+40        <activity
+40-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:27:9-38:20
+41            android:name="com.buddys.steptrackerapplicationsample.MainActivity"
+41-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:28:13-41
+42            android:exported="true" >
+42-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:29:13-36
+43            <intent-filter>
+43-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:30:13-34:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:31:17-69
+44-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:31:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:33:17-77
+46-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:33:27-74
+47            </intent-filter>
+48
+49            <meta-data
+49-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:23:13-25:36
+50                android:name="android.app.lib_name"
+50-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:24:17-52
+51                android:value="" />
+51-->/Users/mohit.garg/Documents/practice-workspace/practice-project/StepTrackerApplicationSample/app/src/main/AndroidManifest.xml:25:17-33
+52        </activity>
+53
+54        <provider
+54-->[androidx.emoji2:emoji2:1.2.0] /Users/mohit.garg/.gradle/caches/transforms-3/a44fe69b7f5ac0e141d6bda2f04e92a5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.2.0] /Users/mohit.garg/.gradle/caches/transforms-3/a44fe69b7f5ac0e141d6bda2f04e92a5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+56            android:authorities="com.buddys.steptrackerapplicationsample.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.2.0] /Users/mohit.garg/.gradle/caches/transforms-3/a44fe69b7f5ac0e141d6bda2f04e92a5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.2.0] /Users/mohit.garg/.gradle/caches/transforms-3/a44fe69b7f5ac0e141d6bda2f04e92a5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/mohit.garg/.gradle/caches/transforms-3/a44fe69b7f5ac0e141d6bda2f04e92a5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/mohit.garg/.gradle/caches/transforms-3/a44fe69b7f5ac0e141d6bda2f04e92a5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/mohit.garg/.gradle/caches/transforms-3/a44fe69b7f5ac0e141d6bda2f04e92a5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mohit.garg/.gradle/caches/transforms-3/baa824db3c1bec348e984fa25af19fb7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mohit.garg/.gradle/caches/transforms-3/baa824db3c1bec348e984fa25af19fb7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mohit.garg/.gradle/caches/transforms-3/baa824db3c1bec348e984fa25af19fb7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+64        </provider>
+65    </application>
+66
+67</manifest>
